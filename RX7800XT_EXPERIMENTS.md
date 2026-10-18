@@ -53,10 +53,12 @@ precedence test (ALPHA → ORBIT) fails 0/3 (it also fails on v0.1.41 as release
 
 - Community benchmark (RX 7800 XT, Windows): PR https://github.com/Niko1221/Strata/pull/3057
 - gfx1101 hipBLASLt table: PR https://github.com/Niko1221/Strata/pull/3058
-- Windows cached ReadFile proposal: issue (submission pending)
-- Layer-major on HIP/Windows: comment on #1670 (submission pending)
+- Windows cached ReadFile proposal: issue https://github.com/Niko1221/Strata/issues/3059
+- Layer-major on HIP/Windows: comment on #1670 https://github.com/Niko1221/Strata/issues/1670#issuecomment-6250884201
 
 ## Building
 
 Same as Strata v0.1.44.1 (`docs/AMD_HIP.md`, `tools/hip/build_windows.bat`). I built only the HIP backend on Windows;
 CUDA and SYCL builds of this branch are untested.
+
+Standalone measurements and report: https://github.com/durikim1-cpu/rx7800xt-strata-experiments
